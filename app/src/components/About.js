@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
+
 const About = () => {
      return (
           <div>
                <h4>Version 1.0.0
-                <a href="/">Gp Back</a>
+                <Link href="/">Go Back</Link>
                </h4>
           </div>
      )

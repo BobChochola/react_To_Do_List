@@ -1,9 +1,10 @@
+
 const Footer = () => {
      return (
-          <Footer>
+          <div>
                <p>Copyright &copy; 2021</p>
                <a href="/about">About</a>
-          </Footer>
+          </div>
      )
 }
 

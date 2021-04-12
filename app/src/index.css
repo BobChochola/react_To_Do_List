@@ -7,6 +7,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2020/12/05/21/07/to-do-list-5807198__340.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
 }
 
 .container {
@@ -14,9 +17,10 @@ body {
     margin: 30px auto;
     overflow: auto;
     min-height: 300px;
-    border: 1px solid steelblue;
+    border: 2px solid steelblue;
     padding: 30px;
     border-radius: 5px;
+    background-color: #f0f0f0e1;
 }
 
 .header {
@@ -54,7 +58,7 @@ body {
 }
 
 .task {
-    background: #f4f4f4;
+    background: #dac4c4;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
